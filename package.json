@@ -1,0 +1,21 @@
+{
+  "name": "typescriptcli",
+  "bin": {
+    "bcn": "/build/app.js"
+  },
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "link-cli": "yarn --global unlink typescriptcli && yarn --global link",
+    "dev": "tsc -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.8.10",
+    "commander": "^11.1.0",
+    "node-fetch": "^3.3.2"
+  }
+}
