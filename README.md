@@ -31,9 +31,11 @@ Clone this repository to your local machine.
 1) Open the project in your preferred IDE
 2) command: npm i  -to install requirements
 3) command: npm run link-cli -to link cli globaly
-# windows users (WSL)-  you need to export the path to the Yarn folder
+# windows users (WSL)
+*  you need to export the path to the Yarn folder
 4) command: export PATH=$PATH:"..../AppData/Local/Yarn/bin"
-# mac users -  you need to to give permission to yarn to link globaly replace "link-cli" in package.json
+# mac users
+* you need to to give permission to yarn to link globaly replace "link-cli" in package.json
 4) "link-cli":"yarn --global unlink typescriptcli && chmod +x yarn --global link"
 
 # Running cli
